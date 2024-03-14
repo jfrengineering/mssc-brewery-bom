@@ -13,7 +13,7 @@
 
     <groupId>com.jfrengineering</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
