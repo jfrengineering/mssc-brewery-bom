@@ -11,7 +11,7 @@
 
     <groupId>com.jfrengineering</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
 
     <packaging>pom</packaging>
 
@@ -43,7 +43,7 @@
         <connection>scm:git:git://github.com/jfrengineering/mssc-brewery-bom.git</connection>
         <developerConnection>scm:git:ssh://github.com:jfrengineering/mssc-brewery-bom.git</developerConnection>
         <url>https://github.com/jfrengineering/mssc-brewery-bom</url>
-      <tag>mssc-brewery-bom-1.0.2</tag>
+      <tag>mssc-brewery-bom-1.0.3</tag>
   </scm>
 
     <properties>
