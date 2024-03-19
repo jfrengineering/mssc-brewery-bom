@@ -44,7 +44,7 @@
         <developerConnection>scm:git:ssh://github.com:jfrengineering/mssc-brewery-bom.git</developerConnection>
         <url>https://github.com/jfrengineering/mssc-brewery-bom</url>
       <tag>mssc-brewery-bom-1.0.3</tag>
-  </scm>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -56,6 +56,13 @@
         <awaitility.version>4.2.0</awaitility.version>
         <wiremock-extension.version>0.4.0</wiremock-extension.version>
     </properties>
+
+    <repositories>
+        <repository> <!-- for 'wiremock-extension' -->
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <dependencyManagement>
         <dependencies>
