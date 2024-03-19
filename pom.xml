@@ -11,7 +11,7 @@
 
     <groupId>com.jfrengineering</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
 
     <packaging>pom</packaging>
 
@@ -88,6 +88,12 @@
             <dependency>
                 <groupId>org.wiremock</groupId>
                 <artifactId>wiremock</artifactId>
+                <version>${wiremock.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.wiremock</groupId>
+                <artifactId>wiremock-standalone</artifactId>
                 <version>${wiremock.version}</version>
                 <scope>test</scope>
             </dependency>
