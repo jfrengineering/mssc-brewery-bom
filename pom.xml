@@ -11,7 +11,7 @@
 
     <groupId>com.jfrengineering</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.0.8</version>
+    <version>1.0.9</version>
 
     <packaging>pom</packaging>
 
@@ -53,7 +53,6 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
-        <artemis-server.version>2.32.0</artemis-server.version>
         <awaitility.version>4.2.0</awaitility.version>
         <wiremock.version>3.4.2</wiremock.version>
     </properties>
@@ -79,12 +78,6 @@
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct</artifactId>
                 <version>${org.mapstruct.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.activemq</groupId>
-                <artifactId>artemis-server</artifactId>
-                <version>${artemis-server.version}</version>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.awaitility</groupId>
